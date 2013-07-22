@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B9E6BF4179DB423002FBA8C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9E6BF3179DB423002FBA8C /* Cocoa.framework */; };
+		1B9E6BFE179DB423002FBA8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B9E6BFC179DB423002FBA8C /* InfoPlist.strings */; };
+		1B9E6C00179DB424002FBA8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9E6BFF179DB423002FBA8C /* main.m */; };
+		1B9E6C04179DB424002FBA8C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1B9E6C02179DB424002FBA8C /* Credits.rtf */; };
+		1B9E6C07179DB424002FBA8C /* MSPSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9E6C06179DB424002FBA8C /* MSPSAppDelegate.m */; };
+		1B9E6C0A179DB424002FBA8C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B9E6C08179DB424002FBA8C /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B9E6BF0179DB423002FBA8C /* MusicPauserServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPauserServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9E6BF3179DB423002FBA8C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1B9E6BF6179DB423002FBA8C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1B9E6BF7179DB423002FBA8C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1B9E6BF8179DB423002FBA8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B9E6BFB179DB423002FBA8C /* MusicPauserServer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicPauserServer-Info.plist"; sourceTree = "<group>"; };
+		1B9E6BFD179DB423002FBA8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B9E6BFF179DB423002FBA8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B9E6C01179DB424002FBA8C /* MusicPauserServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicPauserServer-Prefix.pch"; sourceTree = "<group>"; };
+		1B9E6C03179DB424002FBA8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1B9E6C05179DB424002FBA8C /* MSPSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSPSAppDelegate.h; sourceTree = "<group>"; };
+		1B9E6C06179DB424002FBA8C /* MSPSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSPSAppDelegate.m; sourceTree = "<group>"; };
+		1B9E6C09179DB424002FBA8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B9E6BED179DB423002FBA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9E6BF4179DB423002FBA8C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B9E6BE7179DB423002FBA8C = {
+			isa = PBXGroup;
+			children = (
+				1B9E6BF9179DB423002FBA8C /* MusicPauserServer */,
+				1B9E6BF2179DB423002FBA8C /* Frameworks */,
+				1B9E6BF1179DB423002FBA8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B9E6BF1179DB423002FBA8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B9E6BF0179DB423002FBA8C /* MusicPauserServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B9E6BF2179DB423002FBA8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B9E6BF3179DB423002FBA8C /* Cocoa.framework */,
+				1B9E6BF5179DB423002FBA8C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B9E6BF5179DB423002FBA8C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B9E6BF6179DB423002FBA8C /* AppKit.framework */,
+				1B9E6BF7179DB423002FBA8C /* CoreData.framework */,
+				1B9E6BF8179DB423002FBA8C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1B9E6BF9179DB423002FBA8C /* MusicPauserServer */ = {
+			isa = PBXGroup;
+			children = (
+				1B9E6C05179DB424002FBA8C /* MSPSAppDelegate.h */,
+				1B9E6C06179DB424002FBA8C /* MSPSAppDelegate.m */,
+				1B9E6C08179DB424002FBA8C /* MainMenu.xib */,
+				1B9E6BFA179DB423002FBA8C /* Supporting Files */,
+			);
+			path = MusicPauserServer;
+			sourceTree = "<group>";
+		};
+		1B9E6BFA179DB423002FBA8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B9E6BFB179DB423002FBA8C /* MusicPauserServer-Info.plist */,
+				1B9E6BFC179DB423002FBA8C /* InfoPlist.strings */,
+				1B9E6BFF179DB423002FBA8C /* main.m */,
+				1B9E6C01179DB424002FBA8C /* MusicPauserServer-Prefix.pch */,
+				1B9E6C02179DB424002FBA8C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B9E6BEF179DB423002FBA8C /* MusicPauserServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B9E6C0D179DB424002FBA8C /* Build configuration list for PBXNativeTarget "MusicPauserServer" */;
+			buildPhases = (
+				1B9E6BEC179DB423002FBA8C /* Sources */,
+				1B9E6BED179DB423002FBA8C /* Frameworks */,
+				1B9E6BEE179DB423002FBA8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicPauserServer;
+			productName = MusicPauserServer;
+			productReference = 1B9E6BF0179DB423002FBA8C /* MusicPauserServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B9E6BE8179DB423002FBA8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MSPS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ori Kadosh";
+			};
+			buildConfigurationList = 1B9E6BEB179DB423002FBA8C /* Build configuration list for PBXProject "MusicPauserServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B9E6BE7179DB423002FBA8C;
+			productRefGroup = 1B9E6BF1179DB423002FBA8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B9E6BEF179DB423002FBA8C /* MusicPauserServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B9E6BEE179DB423002FBA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9E6BFE179DB423002FBA8C /* InfoPlist.strings in Resources */,
+				1B9E6C04179DB424002FBA8C /* Credits.rtf in Resources */,
+				1B9E6C0A179DB424002FBA8C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B9E6BEC179DB423002FBA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9E6C00179DB424002FBA8C /* main.m in Sources */,
+				1B9E6C07179DB424002FBA8C /* MSPSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B9E6BFC179DB423002FBA8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9E6BFD179DB423002FBA8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1B9E6C02179DB424002FBA8C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9E6C03179DB424002FBA8C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1B9E6C08179DB424002FBA8C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9E6C09179DB424002FBA8C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B9E6C0B179DB424002FBA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1B9E6C0C179DB424002FBA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1B9E6C0E179DB424002FBA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPauserServer/MusicPauserServer-Prefix.pch";
+				INFOPLIST_FILE = "MusicPauserServer/MusicPauserServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1B9E6C0F179DB424002FBA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPauserServer/MusicPauserServer-Prefix.pch";
+				INFOPLIST_FILE = "MusicPauserServer/MusicPauserServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B9E6BEB179DB423002FBA8C /* Build configuration list for PBXProject "MusicPauserServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9E6C0B179DB424002FBA8C /* Debug */,
+				1B9E6C0C179DB424002FBA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B9E6C0D179DB424002FBA8C /* Build configuration list for PBXNativeTarget "MusicPauserServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9E6C0E179DB424002FBA8C /* Debug */,
+				1B9E6C0F179DB424002FBA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B9E6BE8179DB423002FBA8C /* Project object */;
+}
