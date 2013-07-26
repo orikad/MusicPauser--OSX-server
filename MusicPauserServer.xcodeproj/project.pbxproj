@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B7CE27417A07403000A5E8A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B7CE27317A07403000A5E8A /* MainMenu.xib */; };
 		1B9E6BF4179DB423002FBA8C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9E6BF3179DB423002FBA8C /* Cocoa.framework */; };
 		1B9E6BFE179DB423002FBA8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B9E6BFC179DB423002FBA8C /* InfoPlist.strings */; };
 		1B9E6C00179DB424002FBA8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9E6BFF179DB423002FBA8C /* main.m */; };
-		1B9E6C04179DB424002FBA8C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1B9E6C02179DB424002FBA8C /* Credits.rtf */; };
 		1B9E6C07179DB424002FBA8C /* MSPSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9E6C06179DB424002FBA8C /* MSPSAppDelegate.m */; };
-		1B9E6C0A179DB424002FBA8C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B9E6C08179DB424002FBA8C /* MainMenu.xib */; };
+		1B9E6C12179DB8A4002FBA8C /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9E6C11179DB8A4002FBA8C /* ScriptingBridge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B7CE27317A07403000A5E8A /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		1B9E6BF0179DB423002FBA8C /* MusicPauserServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPauserServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9E6BF3179DB423002FBA8C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1B9E6BF6179DB423002FBA8C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		1B9E6BF7179DB423002FBA8C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		1B9E6BF8179DB423002FBA8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1B9E6BFB179DB423002FBA8C /* MusicPauserServer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicPauserServer-Info.plist"; sourceTree = "<group>"; };
 		1B9E6BFD179DB423002FBA8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1B9E6BFF179DB423002FBA8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B9E6C01179DB424002FBA8C /* MusicPauserServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicPauserServer-Prefix.pch"; sourceTree = "<group>"; };
-		1B9E6C03179DB424002FBA8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		1B9E6C05179DB424002FBA8C /* MSPSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSPSAppDelegate.h; sourceTree = "<group>"; };
 		1B9E6C06179DB424002FBA8C /* MSPSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSPSAppDelegate.m; sourceTree = "<group>"; };
-		1B9E6C09179DB424002FBA8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1B9E6C10179DB88D002FBA8C /* iTunes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		1B9E6C11179DB8A4002FBA8C /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B9E6C12179DB8A4002FBA8C /* ScriptingBridge.framework in Frameworks */,
 				1B9E6BF4179DB423002FBA8C /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +64,7 @@
 		1B9E6BF2179DB423002FBA8C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1B9E6C11179DB8A4002FBA8C /* ScriptingBridge.framework */,
 				1B9E6BF3179DB423002FBA8C /* Cocoa.framework */,
 				1B9E6BF5179DB423002FBA8C /* Other Frameworks */,
 			);
@@ -73,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				1B9E6BF6179DB423002FBA8C /* AppKit.framework */,
-				1B9E6BF7179DB423002FBA8C /* CoreData.framework */,
 				1B9E6BF8179DB423002FBA8C /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
@@ -84,7 +85,7 @@
 			children = (
 				1B9E6C05179DB424002FBA8C /* MSPSAppDelegate.h */,
 				1B9E6C06179DB424002FBA8C /* MSPSAppDelegate.m */,
-				1B9E6C08179DB424002FBA8C /* MainMenu.xib */,
+				1B9E6C10179DB88D002FBA8C /* iTunes.h */,
 				1B9E6BFA179DB423002FBA8C /* Supporting Files */,
 			);
 			path = MusicPauserServer;
@@ -94,10 +95,10 @@
 			isa = PBXGroup;
 			children = (
 				1B9E6BFB179DB423002FBA8C /* MusicPauserServer-Info.plist */,
+				1B7CE27317A07403000A5E8A /* MainMenu.xib */,
 				1B9E6BFC179DB423002FBA8C /* InfoPlist.strings */,
 				1B9E6BFF179DB423002FBA8C /* main.m */,
 				1B9E6C01179DB424002FBA8C /* MusicPauserServer-Prefix.pch */,
-				1B9E6C02179DB424002FBA8C /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,8 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B9E6BFE179DB423002FBA8C /* InfoPlist.strings in Resources */,
-				1B9E6C04179DB424002FBA8C /* Credits.rtf in Resources */,
-				1B9E6C0A179DB424002FBA8C /* MainMenu.xib in Resources */,
+				1B7CE27417A07403000A5E8A /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,22 +181,6 @@
 				1B9E6BFD179DB423002FBA8C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1B9E6C02179DB424002FBA8C /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B9E6C03179DB424002FBA8C /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		1B9E6C08179DB424002FBA8C /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B9E6C09179DB424002FBA8C /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -262,11 +246,16 @@
 		1B9E6C0E179DB424002FBA8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_FAST_MATH = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicPauserServer/MusicPauserServer-Prefix.pch";
 				INFOPLIST_FILE = "MusicPauserServer/MusicPauserServer-Info.plist";
+				LLVM_LTO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -274,11 +263,17 @@
 		1B9E6C0F179DB424002FBA8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_FAST_MATH = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicPauserServer/MusicPauserServer-Prefix.pch";
 				INFOPLIST_FILE = "MusicPauserServer/MusicPauserServer-Info.plist";
+				LLVM_LTO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -302,6 +297,7 @@
 				1B9E6C0F179DB424002FBA8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
